@@ -1,0 +1,19 @@
+/* Hide "More Tweets" */
+:has(head > link[rel=preconnect][href="//t.co"]) [data-testid="cellInnerDiv"]:has(h2+div) {
+	display: none !important;
+}
+
+/* Hide "More Tweets" */
+:has(head > link[rel=preconnect][href="//t.co"]) [data-testid="cellInnerDiv"]:has(h2+div) ~ * {
+	display: none !important;
+}
+
+/* Hide "Trending" */
+:has(head > link[rel=preconnect][href="//t.co"]) section:has(> [aria-label="Timeline: Trending now"]) {
+	display: none !important;
+}
+
+/* Hide "Impression counter" */
+:has(head > link[rel=preconnect][href="//t.co"]) [data-testid="tweet"] div:has(> a[href$="/analytics"]) {
+	display: none !important;
+}
