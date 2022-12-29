@@ -2,10 +2,10 @@
 
 > remove 💩from your Twitter timeline with a custom stylesheet.
 
-Twitter under Mr. Poop face is adding a bunch of features which are not designed for good.
+Twitter under Mr. Poop face is adding/changing a bunch of features and not for the better.
 
-These are designed for you to :
-- spend more time on the platform stuck scrolling
+These are designed so that you :
+- spend more time on the platform scrolling
 - get more stuck in a feedback bubble
 - feel more anxious about how a tweet is performing
 
