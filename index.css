@@ -20,5 +20,5 @@
 
 /* Force "Following" content */
 :has(head > link[rel=preconnect][href="//t.co"]) [aria-label="Home timeline"]:has(nav[role=navigation] [role=presentation]:first-child [href="/home"][aria-selected=true]) [aria-label="Timeline: Your Home Timeline"] * {
-	display: none;
+	display: none !important;
 }
