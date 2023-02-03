@@ -18,7 +18,12 @@
 	display: none !important;
 }
 
-/* Force "Following" content */
-:has(head > link[rel=preconnect][href="//t.co"]) [aria-label="Home timeline"]:has(nav[role=navigation] [role=presentation]:first-child [href="/home"][aria-selected=true]) [aria-label="Timeline: Your Home Timeline"] * {
+/* Hide "Twitter Blue Promo" */
+:has(head > link[rel=preconnect][href="//t.co"]) [href="/i/twitter_blue_sign_up"] {
+	display: none !important;
+}
+
+/* Hide ads */
+:has(head > link[rel=preconnect][href="//t.co"]) [data-testid="cellInnerDiv"]:has([data-testid="placementTracking"]) {
 	display: none !important;
 }
